@@ -1,0 +1,53 @@
+.conainer h1{
+    text-align: left;
+    padding: 10px;
+    margin: 150px;
+    font-size: 100px;
+    gap: 20px;
+    
+}
+.conainer p{
+    text-align: left;
+    padding: 5px;
+    margin: 30px; 
+    font-size:25px ;
+
+
+}
+
+.card{
+
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 20px;
+    pad: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+
+    background-image: url(reve-en-cube-misty-green.jpg);
+}
+.card2{
+
+    background-image: url(allien.jpg);
+}
+
+.card3{
+
+    background-image: url(OIP.jpg);
+}
+
+.card4{
+
+    background-image: url(OIP\ \(1\).jpg);
+}
+
+.card5{
+
+    background-image: url(OIP\ \(2\).jpg);
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>women</title>
+    <link rel = "stylesheet" href = "website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="javascript.js">
+</head>
+<body>
+    <div>
+        <nav class="navigationbar">
+            <div class="searchbar">
+                <input class="search" name="search" id="searchinputa" placeholder="Search For Product" autocomplete="off">
+                <button type="button" class="search" > Search</button>
+            </div>
+    
+            <ul class="navbutton">
+                <li><a href ="myhome.html">Home</a></li>
+                <li><a href ="women.html">Women</a></li>
+                <li><a href ="men.html">Men</a></li>
+                <li ><a href ="brands.html">Brands</a></li>
+                <li ><a href ="about.html">About</a></li>
+                <li ><a href ="cart.html">Cart</a></li>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </ul>
+           
+            
+              
+        </nav>
+    </div>
+
+<section class="women">
+    <div class="slider-container">
+    <div class="slider">
+      <div class="slides">
+        <div id="slides__1" class="slide">
+          <span class="slide__text"></span>
+          <a class="slide__prev" href="product1.png" title="Next"></a>
+          <a class="slide__next" href="OIP.jpg" title="Next"></a>
+        </div>
+        <div id="slides__2" class="slide">
+          <span class="slide__text">2</span>
+          <a class="slide__prev" href="angelper.jpg" title="Prev"></a>
+          <a class="slide__next" href="OIP (1).jpg" title="Next"></a>
+        </div>
+        <div id="slides__3" class="slide">
+          <span class="slide__text">3</span>
+          <a class="slide__prev" href="OIP.jpg" title="Prev"></a>
+          <a class="slide__next" href="product1.png" title="Next"></a>
+        </div>
+        <div id="slides__4" class="slide">
+          <span class="slide__text">4</span>
+          <a class="slide__prev" href="OIP (1).jpg" title="Prev"></a>
+          <a class="slide__next" href="angelper.jpg" title="Prev"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+</section>
+
+
+
+
+    <!--footer-->
+    
+<footer>
+    <div class="footerdataleft">
+        <div class="col1">
+            <h4>SHOP BY WOMEN'S SCENTS <div class="underlinea"><span></span></div></h4>
+            <ul>
+                <li>Woody</li>
+                <li>Floral</li>
+                <li>Angel</li>
+                <li>Fruity</li>
+
+
+
+            </ul>
+        </div>
+
+        <div class="col2">
+            <h4>SHOP BY MEN'S SCENTS<div class="underline"><span></span></div></h4>
+           <ul>
+            <li>Allen</li>
+            <li>Fresh</li>
+            <li>Citrus</li>
+            <li>Spicy</li>
+
+
+           </ul>
+        </div>
+    </div>
+
+    <div class="footermiddle">
+        <div class="col3">
+            <h4>SEASONAL SCENTS <div class="underline"><span></span></div></h4>
+            <ul>
+                <li>Spring Perfumes</li>
+                <li>Summer Perfumes</li>
+                <li>Fall Perfumes</li>
+                <li>Winter Perfumes</li>
+            </ul>
+        </div>
+
+        <div class="col4">
+            <h4>SEASONAL COLOGNES <div class="underline"><span></span></div></h4>
+            <ul>
+                <li>Spring Colognes</li>
+                <li>Summer Colognes</li>
+                <li>Fall Colognes</li>
+                <li>Winter Colognes</li>
+            </ul>
+
+        </div>
+        
+    </div>
+
+    <div class="footerright">
+        <div class="col5">
+            <h4>FEATURED <div class="underline"><span></span></div></h4>
+            <ul>
+                <li>Refil Bottles</li>
+                <li>Gift & Sets</li>
+                <li>Offers</li>
+                <li>Best Sellers</li>
+            </ul>
+        </div>
+
+        <div class="col6">
+            <h4>MY ACCOUNT <div class="underline"><span></span></div></h4>
+            <ul>
+                <li>Track My Order</li>
+                <li>Register</li>
+                <li>Login</li>
+                <li>Call Us at +94-1861724</li>
+            </ul>
+        </div>
+        
+        
+    </div>
+    <div class="payicon">
+    <ul class="payment">
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-paypal"></i>
+        <i class="fa-brands fa-cc-amex"></i>
+
+        
+    </ul>
+    <div class="emailbar">
+        <i class="fa-sharp fa-solid fa-envelope"></i>
+        <input type="search" name="email" id="emailinput1" placeholder="Your Email" autocomplete="off">
+        <button type="button" class="submit" > Submit</button>
+    </div>
+    
+    </div>  
+    
+
+
+</footer>
+    
+</body>
+</html>
+
+    
+</body>
+</html>

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>men</title>
+    <link rel = "stylesheet" href = "website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="javascript.js">
+
+    <style>
+
+        .button {
+          position: relative;
+          padding: 8px 15px;
+          font-size: 1.5rem;
+          color: var(--color);
+         
+          text-shadow: 0 0 15px var(--color);
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 0.1rem;
+          transition: 0.5s;
+          z-index: 1;
+          padding: 5px;
+        }
+        
+        .button:hover {
+          color: #fff;
+          border: 2px solid rgba(0, 0, 0, 0);
+          box-shadow: 0 0 0px var(--color);
+        }
+        
+        .button::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: var(--color);
+          z-index: -1;
+          transform: scale(0);
+          transition: 0.5s;
+        }
+        
+        .button:hover::before {
+          transform: scale(1);
+          transition-delay: 0.5s;
+          box-shadow: 0 0 10px var(--color),
+            0 0 30px var(--color),
+            0 0 60px var(--color);
+        }
+        
+        .button span {
+          position: absolute;
+          pointer-events: none;
+          border-radius: 2px;
+          transition: 0.5s ease-in-out;
+          transition-delay: 0.25s;
+        }
+        
+        .button:hover span {
+          opacity: 0;
+          transition-delay: 0s;
+        }
+        
+        .button span:nth-child(1),
+        .button span:nth-child(3) {
+          width: 40px;
+          height: 4px;
+        }
+        
+        .button:hover span:nth-child(1),
+        .button:hover span:nth-child(3) {
+          transform: translateX(0);
+        }
+        
+        .button span:nth-child(2),
+        .button span:nth-child(4) {
+          width: 4px;
+          height: 40px;
+        }
+        
+        .button:hover span:nth-child(1),
+        .button:hover span:nth-child(3) {
+          transform: translateY(0);
+        }
+        
+        .button span:nth-child(1) {
+          top: calc(50% - 2px);
+          left: -50px;
+          transform-origin: left;
+        }
+        
+        .button:hover span:nth-child(1) {
+          left: 50%;
+        }
+        
+        .button span:nth-child(3) {
+          top: calc(50% - 2px);
+          right: -50px;
+          transform-origin: right;
+        }
+        
+        .button:hover span:nth-child(3) {
+          right: 50%;
+        }
+        
+        .button span:nth-child(2) {
+          left: calc(50% - 2px);
+          top: -50px;
+          transform-origin: top;
+        }
+        
+        .button:hover span:nth-child(2) {
+          top: 50%;
+        }
+        
+        .button span:nth-child(4) {
+          left: calc(50% - 2px);
+          bottom: -50px;
+          transform-origin: bottom;
+        }
+        
+        .button:hover span:nth-child(4 ) {
+          bottom: 50%;
+        }
+        </style>
+
+</head>
+<body>
+
+    <div>
+        <nav class="navigationbar">
+            <div class="logo">
+                <img src="mylogo.jpg" alt="logo" width="80px">
+            </div>
+            <div class="searchbar">
+                <input class="search" name="search" id="searchinputa" placeholder="Search For Product" autocomplete="off">
+                <button type="button" class="search" > Search</button>
+            </div>
+
+            
+    
+            <div class="container">
+                <a href='index.html' class="button" href="#" style="--color:#1e9bff;">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Home
+                </a>
+                <a href='men.html' class="button" href="#" style="--color:#1e9bff;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Men
+                  </a>
+                  <a href='brands.html' class="button" href="#" style="--color:#1e9bff;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Brands
+                  </a>
+                  <a href='about.html' class="button" href="#" style="--color:#1e9bff;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    About
+                  </a>
+                  <a href='cart.html' class="button" href="#" style="--color:#1e9bff;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    cart
+                  </a>
+    
+            </div>
+           
+            
+              
+        </nav>
+    </div>
+    
+    <section class="backgroundmen">
+        
+            
+    <div class="conainer">
+        <div class="rowcon">
+            <div class="colcon">
+                <h1><b>FRAGRENS</b></h1>
+            </div>
+            <div class="card">
+        
+  
+                <div class="card_part card_part-one">
+                </div>
+                
+                 <!-- Photo 2 -->
+                <div class="card_part card_part-two">
+              
+                </div>
+              
+                <!-- Photo 3 -->
+                <div class="card_part card_part-three">
+                </div>
+              
+                <!-- Photo 4 -->
+                <div class="card_part card_part-four">
+                </div>
+              
+                
+                
+              </div>
+        </div>
+    </div>
+        
+
+       
+    </section>
+
+      <div class="wrapper">
+        <h1>FOR HIM...</h1>
+        <div class="cardcontainer">
+            <div class="boxcon">
+               
+                <img src="men1.jpg" alt="">
+                <h4>Tobacco Oud by Tom Ford</h4>
+                <p>The new fragrance is simply divine</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="men10.jpg" alt="">
+                <h4>Sauvage by Dior</h4>
+                <p>The perfect smell for you</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="men2.jpg" alt="">
+                <h4>Aventus by Creed</h4>
+                <p>Everything’s better with a bit of fragrance</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="men3.jpg" alt="">
+                <h4>Ralph Lauren Polo Black</h4>
+                <p>For unforgettable impression and experiences</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="men4.jpg" alt="">
+                <h4>Chanel Bleu de Chanel</h4>
+                <p>Enjoy the goodness of good perfumes</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="men5.jpg" alt="">
+                <h4>Calvin Klein Eternity for Men</h4>
+                <p>Your favorite perfume is here</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="men6.jpg" alt="">
+                <h4>Maison Margiela Replica Jazz Club</h4>
+                <p>The perfume smell which is irresistible</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="men7.jpg" alt="">
+                <h4>Le Labo Another 13</h4>
+                <p>The world’s most seductive fragrance</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="men8.jpg" alt="">
+                <h4>Byredo Bibliothèque</h4>
+                <p>The world’s most desired perfume</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="men9.jpg" alt="">
+                <h4>Tom Ford Private Blend Oud Wood</h4>
+                <p>Trust us, you’ll smell like a million bucks</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="hm7.jpg" alt="">
+                <h4>Gucci Guilty For Men</h4>
+                <p>Exquisitely feminine</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="hm8.jpg" alt="">
+                <h4>Timothy Han She Came to Stay</h4>
+                <p>Don’t just smell nice, smell unforgettable</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="hm9.jpg" alt="">
+                <h4>Boss Bottled by Hugo Boss</h4>
+                <p>Your favorite perfume is here</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="hm11.jpg" alt="">
+                <h4>Maison Francis Kurkdjian Oud Silk Mood</h4>
+                <p>Not just a scent, it’s an experience</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            <div class="boxcon">
+               
+                <img src="hm10.jpg" alt="">
+                <h4>Jo Malone Wood Sage & Sea Salt</h4>
+                <p>The perfect perfume for all day long</p>
+                <a href="#" class="butn">ADD ME</a>
+            </div>
+
+            
+        </div>
+    </div>
+      
+    
+
+    <!--footer-->
+    
+
+    
+    
+    
+    
+    
+        <!--footer-->
+        
+    <footer>
+        <div class="footerdataleft">
+            <div class="col1">
+                <h4>SHOP BY WOMEN'S SCENTS <div class="underlinea"><span></span></div></h4>
+                <ul>
+                    <li>Woody</li>
+                    <li>Floral</li>
+                    <li>Angel</li>
+                    <li>Fruity</li>
+    
+    
+    
+                </ul>
+            </div>
+    
+            <div class="col2">
+                <h4>SHOP BY MEN'S SCENTS<div class="underline"><span></span></div></h4>
+               <ul>
+                <li>Allen</li>
+                <li>Fresh</li>
+                <li>Citrus</li>
+                <li>Spicy</li>
+    
+    
+               </ul>
+            </div>
+        </div>
+    
+        <div class="footermiddle">
+            <div class="col3">
+                <h4>SEASONAL SCENTS <div class="underline"><span></span></div></h4>
+                <ul>
+                    <li>Spring Perfumes</li>
+                    <li>Summer Perfumes</li>
+                    <li>Fall Perfumes</li>
+                    <li>Winter Perfumes</li>
+                </ul>
+            </div>
+    
+            <div class="col4">
+                <h4>SEASONAL COLOGNES <div class="underline"><span></span></div></h4>
+                <ul>
+                    <li>Spring Colognes</li>
+                    <li>Summer Colognes</li>
+                    <li>Fall Colognes</li>
+                    <li>Winter Colognes</li>
+                </ul>
+    
+            </div>
+            
+        </div>
+    
+        <div class="footerright">
+            <div class="col5">
+                <h4>FEATURED <div class="underline"><span></span></div></h4>
+                <ul>
+                    <li>Refil Bottles</li>
+                    <li>Gift & Sets</li>
+                    <li>Offers</li>
+                    <li>Best Sellers</li>
+                </ul>
+            </div>
+    
+            <div class="col6">
+                <h4>MY ACCOUNT <div class="underline"><span></span></div></h4>
+                <ul>
+                    <li>Track My Order</li>
+                    <li>Register</li>
+                    <li>Login</li>
+                    <li>Call Us at +94-1861724</li>
+                </ul>
+            </div>
+            
+            
+        </div>
+        <div class="payicon">
+        <ul class="payment">
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+            <i class="fa-brands fa-cc-amex"></i>
+    
+            
+        </ul>
+        <div class="emailbar">
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+            <input type="search" name="email" id="emailinput1" placeholder="Your Email" autocomplete="off">
+            <button type="button" class="submit" > Submit</button>
+        </div>
+        
+        </div>  
+        
+    
+    
+    </footer>
+        
+    </body>
+    </html>
+    
+        
+    </body>
+    </html>
